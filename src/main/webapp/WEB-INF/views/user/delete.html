@@ -26,6 +26,10 @@
             <td th:text="${user.phoneNumber}"></td>
         </tr>
         <tr>
+            <td>Category:</td>
+            <td th:text="${user.category_id.name}"></td>
+        </tr>
+        <tr>
             <td></td>
             <td><input type="submit" value="Delete user"></td>
         </tr>
